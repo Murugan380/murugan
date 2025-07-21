@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(16, 16, 141);
+        }
+        .z{
+            display: grid;
+        }
+        .nav{
+            background-color: black;
+            width: 100%;
+            height: 50px;
+            color: white;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+            align-items: center;
+        }
+        .n{
+            display: grid;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+        }
+        .n:hover{
+            background-color: aliceblue;
+            color: black;
+        }
+        a{
+             text-decoration: none;
+             color: white;
+        }
+        .h{
+           display: grid;
+           grid-template-columns: auto auto;
+           grid-column: 1/13;
+        }
+        .s{
+            display:flex;color: orangered;margin: 0px 10px;align-items: center;justify-content: flex-end;
+
+        }
+        .s:hover{
+            color: blue;
+            cursor: pointer;
+        }
+        .img{
+            background-image: url(amazon.png.jpg);
+            background-position: center;
+            display: grid;
+            height: 400px;
+            width: 100%;
+        }
+        .sub{
+            position: absolute;
+            top:170px;
+            left: 50px;
+            background-color: rgb(0, 0, 0);
+            border: 1px solid orangered;
+            border-bottom: 7px solid orangered;
+            color: white;
+            width: 300px;
+            text-indent: 15px;
+            text-align:justify;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 5px;
+        }
+        .but{
+            background-color: orangered;
+            border: 1px solid orangered;
+            margin: 5px;
+            width: 100px;
+            height: 30px;
+        }
+        .butt:hover,.but:hover{
+            background-color: rgb(255, 255, 255);
+            color: black;
+            cursor: pointer;
+            border: 3px solid orangered;
+
+        }
+        .butt{
+            background-color: orangered;
+            border: 1px solid orangered;
+            margin: 5px;
+            width: 250px;
+            height: 50px;
+        }
+        .mid{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto;
+            grid-row: 2/3;
+            color: rgb(0, 0, 0);
+            align-items: center;
+            font-size: 40px;
+            margin-top: 15px;
+        }
+        .bg{
+             background-color: rgba(153, 148, 148);
+        }
+        .box{
+            display: grid;grid-template-rows: auto auto auto auto;justify-items: center;border: 3px solid gray;margin: 5px;
+        }
+        .f{
+            display: grid;grid-template-columns: repeat(auto-fit,minmax(300px,1fr));row-gap: 40px;column-gap: -20px;justify-items: center;
+        }
+        .four{
+            display: grid;grid-template-columns: auto auto auto auto;grid-template-rows: auto;margin-top: 20px;color:rgb(0, 0, 0);
+        }
+        .fa-television,
+        .fa-exclamation-triangle,
+        .fa-coffee,.fa-briefcase{
+            background-color: orangered;
+            width: 50px;
+            height: 50px;
+           display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .foote{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .foote:hover{
+            color:rgb(0, 0, 255);
+            cursor: pointer;
+        }
+         .fa-amazon,
+        .fa-facebook,.fa-instagram,
+        .fa-twitter,.fa-whatsapp{
+            margin: 5px;
+        }
+        .foot{
+            display: grid; background-color: rgb(0, 0, 0); height: 200px;grid-template-rows: auto auto auto auto auto; justify-content: center;color: white;margin-top: 10px;align-items: center;justify-items: center;
+        }
+        .foot:hover{
+            background-color: rgb(0, 0, 0);
+            color: orangered;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+      <div class="h">
+        <div style="display: flex;align-items: center; font-size: 25px;">
+        <i class="fa fa-amazon" aria-hidden="true" style="margin-right: 5px;"></i>Amazon</div>
+    </div>
+        <a href="#home" class="n">HOME</a>
+        <a href="Features" class="n">FEATURES</a>
+        <a href="pages" class="n">PAGES</a>
+        <a href="portfolio" class="n">PORTFOLIO</a>
+        <a href="blog" class="n">BLOG</a>
+        <a href="contact" class="n">CONTACT</a>
+         <div class="s"><i class="fa fa-user" aria-hidden="true"></i>SIGN IN</div>
+    </div>
+    <div>
+         <img src="amazon1.png.jpg" height="400px" width="100%" style="border-bottom: 10px solid black;">
+            <div class="sub"><h2>About</h2>
+            <p>As of 2023, it is the world's largest online retailer and marketplace, smart speaker provider, cloud computing service through AWS, live-streaming service through Twitch, and Internet company as measured by revenue and market share.</p>
+            <button type="button" class="but">READ MORE</button></div>
+</div>
+<div class="bg">
+            <div class="mid">
+                <p>We've Sales more than 5000 Billion products this year! </p>
+                <button type="button" class="butt" style="height: 50px;">REQUEST A QUOTE</button>
+            </div>
+            <div class="four">
+                <div class="box">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i><h3>Corporate Business</h3>
+                    <p style="text-indent: 10px;">Lorem ipsum dolor sit amet, has ei ipsum scaebola desureuse am sea facilises</p><div style="color: orangered;" >Learn more</div>
+                </div>
+                 <div class="box">
+                    <i class="fa fa-television" aria-hidden="true"></i><h3>Corporate Business</h3>
+                    <p style="text-indent: 10px;">Lorem ipsum dolor sit amet, has ei ipsum scaebola desureuse am sea facilises</p><div style="color: orangered;" >Learn more</div>
+                </div>
+                 <div class="box">
+                    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i><h3>Corporate Business</h3>
+                    <p style="text-indent: 10px;">Lorem ipsum dolor sit amet, has ei ipsum scaebola desureuse am sea facilises</p><div style="color: orangered;" >Learn more</div>
+                </div>
+                 <div class="box">
+                    <i class="fa fa-coffee" aria-hidden="true" style="margin-top: 10px;"></i><h3>Corporate Business</h3>
+                    <p style="text-indent: 10px;">Lorem ipsum dolor sit amet, has ei ipsum scaebola desureuse am sea facilises</p><div style="color: orangered;" >Learn more</div>
+                </div>
+            </div>
+            </div>
+              <hr>
+            <div style="background-color: rgb(8, 30, 128);">
+              
+            <h1 style="color: rgba(255, 255, 255, 0.562);text-decoration:underline;text-transform:capitalize;">Some of recent works</h1>
+            <div class="f">
+                <img src="ama1.png" width="250px" height="250px">
+                <img src="ama2.png" width="250px" height="250px">
+                <img src="ama3.png" width="250px" height="250px">
+                <img src="ama4.png" width="250px" height="250px">
+                <img src="ama5.png" width="250px" height="250px">
+                <img src="ama6.png" width="250px" height="250px">
+                <img src="ama7.png" width="250px" height="250px">
+                <img src="ama8.png" width="250px" height="250px">
+            </div></div>
+            <div class="foot">
+               <div class="foote"><i class="fa fa-amazon" aria-hidden="true"></i>Amazon</div>
+               <div class="foote"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</div>
+               <div class="foote"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</div>
+               <div class="foote"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</div>
+               <div class="foote">
+               <i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp</div>
+            </div>
+</body>
+</html>

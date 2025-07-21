@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+    body{
+        background-color:gray
+    }
+    section{
+        background-color: rgb(163, 170, 168);
+    }
+    .p
+    {
+        padding-top:70px;
+    }
+    .nav-item:hover{
+        background-color: black;
+        color: red;
+    }
+    .abc{
+        text-decoration: none;
+    }
+    .abc:hover{
+        text-decoration: underline;
+    }
+    .g{
+        background-color: black;
+        color: aliceblue;
+    }
+    .g:hover{
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+    .ser{
+        border: 1px solid;
+        height: 150px;
+        width: auto;
+        background-color: aliceblue;
+    }
+    .scroll-box {
+  height: 200px;
+  overflow-y: scroll;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* Scrollbar styling */
+.scroll-box::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scroll-box::-webkit-scrollbar-track {
+  background: #000000; /* Blue thumb */
+  border: 2px solid rgba(255, 255, 255, 0.61);
+  background: transparent;
+  border-radius: 5px;
+}
+.scroll-box::-webkit-scrollbar-thumb{
+    background-color: rgb(116, 109, 109);
+    border-radius: 5px;
+}
+    .cust {
+    margin: 0px;
+    color: blueviolet;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .cust {
+        margin-top: 100px;
+        color: brown;
+    }
+}
+</style>
+</head>
+<body>
+    <header class="a">
+        <nav class="navbar navbar-expand-lg   navbar-dark bg-primary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-dark fs-2" href="#"><i class="bi bi-amazon"></i>Amazon</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white fs-5" href="#more" tabindex="-1" aria-disabled="true">More</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Slid-->
+    <section class="p d-none d-md-block" id="home">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="https://m.economictimes.com/thumb/msid-54838517,width-1600,height-900,resizemode-4,imgsize-15352/amazon-launches-global-store-in-india.jpg" class="w-100" height="400px" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="https://images.interestingengineering.com/img/iea/9lwjAzlK6E/amazon-hist-header.jpg" height="400px" class="w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="https://www.investopedia.com/thmb/MSdkb9W7mv3ak-2FfGpzvN3YaJg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-12446899391-e57beafa9b684e5f8e174f704bb7357f.jpg" class="w-100" height="400px" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </section>
+
+
+
+
+    <!--about-->
+    <section class="container-fluid mt-sm-5 mt-md-3" id="about">
+        <div class="row mt-md-3  mt-sm-5 ">
+            <div class="col-md-6 col-12 mt-5">
+                 <h3>About :</h3>
+                <p class="border border-4 border-dark">Amazon Salon offers a range of hair and beauty services, including haircuts, styling, coloring, and makeup application. They also incorporate technology, allowing customers to virtually try on different hair colors and styles using augmented reality. Additionally, they offer a retail space where customers can purchase beauty products and tools. </p>
+                <p><div class="h3">Hair Services:</div>
+                    Amazon Salon provides a full range of hairdressing services for adults and children, including cuts, blow dries, highlights, balayage, and various styling options. 
+                    Technology Integration:
+                    A key feature of Amazon Salon is its use of technology. Customers can experiment with different hair colors using augmented reality (AR) technology. </p>
+            </div>
+            <div class="col-md-6 col-12 p-5">
+                <img src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22456613/download__5_.jpeg?quality=90&strip=all" width="100%" height="300px">
+            </div>  
+        </div>    
+    </section>
+
+    <!--Services-->
+    <section id="services" class="container-fluid my-3">
+        <h1>Services :</h1>
+        <div class="row my-3">
+            <div class="col-6 col-md-3">
+                <div class="card p-4">
+                    <img src="https://www.investing.com/academy/wp-content/uploads/2022/09/Amazon-packages.jpg"class="img-fluid mb-2">
+                    <p>As of 2023, it is the world's largest online retailer and marketplace, smart speaker provider, cloud computing.</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+                <div class="card p-4">
+                    <img src="https://chatimgs.blob.core.windows.net/community/aws1.png"class="img-fluid mb-2">
+                    <p>As of 2023, it is the world's largest online retailer and marketplace, smart speaker provider, cloud computing.</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+                <div class="card p-4">
+                    <img src="https://i.ytimg.com/vi/5wkoUL-V0Yo/maxresdefault.jpg"class="img-fluid mb-2">
+                    <p>As of 2023, it is the world's largest online retailer and marketplace, smart speaker provider, cloud computing.</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card p-4">
+                    <img src="https://s3.us-east-2.amazonaws.com/unicorniohater.com.br/wp-content/uploads/2020/09/14135416/amazon-prime-video-002.jpg" class="img-fluid mb-2">
+                    <p>As of 2023, it is the world's largest online retailer and marketplace, smart speaker provider, cloud computing.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--More-->
+    <section id="more" class="container-fluid">
+        <div class="row my-3 p-3">
+            <h1>Learn More :</h1>
+            <div class="col scroll-box ms-5" >
+                <li>Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. We strive to be Earth’s most customer-centric company, Earth’s best employer, and Earth’s safest place to work.</li>
+                <li>But there are also many under-the-radar fun facts about Amazon's current ventures—such as its cashier-less stores and drone delivery.</li>
+                <li>Amazon Held Its Meetings at Barnes and Noble.</li>
+                <li>Amazon Launched as an Auction Site.</li>
+                <li>It Was Also an Early Competitor of Yahoo!</li>
+                <li>Amazon Users Can Donate to Charities When they Buy.</li>
+                <li>Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. We strive to be Earth’s most customer-centric company, Earth’s best employer, and Earth’s safest place to work.</li>
+                <li>But there are also many under-the-radar fun facts about Amazon's current ventures—such as its cashier-less stores and drone delivery.</li>
+                <li>Amazon Held Its Meetings at Barnes and Noble.</li>
+                <li>Amazon Launched as an Auction Site.</li>
+                <li>It Was Also an Early Competitor of Yahoo!</li>
+                <li>Amazon Users Can Donate to Charities When they Buy.</li>
+                <li>Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. We strive to be Earth’s most customer-centric company, Earth’s best employer, and Earth’s safest place to work.</li>
+                <li>But there are also many under-the-radar fun facts about Amazon's current ventures—such as its cashier-less stores and drone delivery.</li>
+                <li>Amazon Held Its Meetings at Barnes and Noble.</li>
+                <li>Amazon Launched as an Auction Site.</li>
+                <li>It Was Also an Early Competitor of Yahoo!</li>
+                <li>Amazon Users Can Donate to Charities When they Buy.</li>
+                  <li>Amazon Held Its Meetings at Barnes and Noble.</li>
+                <li>Amazon Launched as an Auction Site.</li>
+                <li>It Was Also an Early Competitor of Yahoo!</li>
+                <li>Amazon Users Can Donate to Charities When they Buy.</li>
+                <li>Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. We strive to be Earth’s most customer-centric company, Earth’s best employer, and Earth’s safest place to work.</li>
+                <li>But there are also many under-the-radar fun facts about Amazon's current ventures—such as its cashier-less stores and drone delivery.</li>
+                <li>Amazon Held Its Meetings at Barnes and Noble.</li>
+                <li>Amazon Launched as an Auction Site.</li>
+                <li>It Was Also an Early Competitor of Yahoo!</li>
+                <li>Amazon Users Can Donate to Charities When they Buy.</li>
+                  <li>Amazon Held Its Meetings at Barnes and Noble.</li>
+                <li>Amazon Launched as an Auction Site.</li>
+                <li>It Was Also an Early Competitor of Yahoo!</li>
+                <li>Amazon Users Can Donate to Charities When they Buy.</li>
+                <li>Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. We strive to be Earth’s most customer-centric company, Earth’s best employer, and Earth’s safest place to work.</li>
+                <li>But there are also many under-the-radar fun facts about Amazon's current ventures—such as its cashier-less stores and drone delivery.</li>
+                <li>Amazon Held Its Meetings at Barnes and Noble.</li>
+                <li>Amazon Launched as an Auction Site.</li>
+                <li>It Was Also an Early Competitor of Yahoo!</li>
+                <li>Amazon Users Can Donate to Charities When they Buy.</li></marquee>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center bg-dark">
+              <h2><a href="#home" class="text-decoration-none text-light">Backto top</a></h2>
+            </div>
+            <div class="col-6 col-md-4 d-flex justify-content-center p-4">
+                <h5>Get to Know Us</h5>
+                <ul type=none>
+                    <li><a href="#about" class="abc text-dark">About Amazon</a></li>
+                    <li><a href="#home" class="abc text-dark">Careers</a></li>
+                    <li><a href="#about" class="abc text-dark">Press Releases</a></li>
+                    <li><a href="#about" class="abc text-dark">Amazon Science</a></li>
+                </ul>    
+            </div>
+            <div class="col-6 col-md-4 d-flex justify-content-center p-4">
+                <h5>Get to Know Us</h5>
+                <ul type=none>
+                    <li><a href="#about" class="abc text-dark">About Amazon</a></li>
+                    <li><a href="#home" class="abc text-dark">Careers</a></li>
+                    <li><a href="#about" class="abc text-dark">Press Releases</a></li>
+                    <li><a href="#about" class="abc text-dark">Amazon Science</a></li>
+                </ul>    
+            </div>
+            <div class="col-6 col-md-4 d-flex justify-content-center p-4">
+                <h5>Contact with as</h5>
+                <ul type=none>
+                    <li><a href="https://www.facebook.com/AmazonIN/" class="abc text-dark">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/amazondotin/?hl=en" class="abc text-dark">Instagram</a></li>
+                    <li><a href="https://x.com/amazonin?lang=bn" class="abc text-dark">Twitter</a></li>
+                    <li><a href="https://www.amazon.science/" class="abc text-dark">Amazon Science</a></li>
+                </ul>    
+            </div>
+        </div>
+    </section>
+</body>
+</html>

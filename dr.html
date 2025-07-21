@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;
+        }
+        .a{
+            display: grid;
+            grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+            column-gap: 20px;
+            background-color: rgb(94, 93, 93);
+            width: 100%;height: 100%;
+            color: black;
+            font-size: large;
+        }
+        .b{
+            display: grid;
+        }
+        .c{
+            display: grid;
+            height: 800px;
+        }
+        .ser{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(red,blue);
+            height: 50px;
+            border-radius: 15px;
+            padding: 20px;
+        }
+        #ser{
+            display: grid;height: 50px; border-radius: 10px;font-size: 16px;padding-left: 20px;
+        }
+        .music{
+            display: grid;grid-template-columns: repeat(auto-fit, minmax(80px,120px));column-gap: 20px;row-gap: 20px;
+        }
+        .ring{
+            display: grid;justify-content: center;border: 1px solid rgb(255, 255, 255);background-color: rgb(0, 0, 0);
+        }
+        .t{
+            text-align: center;
+            color: white;
+        }
+        .simple{
+            display: grid;grid-template-columns: repeat(auto-fit,minmax(50px,120px));justify-items: center;margin-top: 5%;margin-bottom: 2%;
+        }
+        .sim{
+            display: flex;align-items: center;
+        }
+        .im{
+            border-bottom: 1px solid rgb(255, 255, 255);
+            width:118px; height:100px;
+        }
+        .fa-clock-o, .fa-globe, .fa-star {
+            padding-right: 10px;
+        }
+        .mus{
+            display: grid;grid-template-columns: repeat(auto-fit,minmax(280px,280px));margin-top: 15px;column-gap: 10px;row-gap: 10px;
+        }
+        .musc{
+            display: flex;border: 1px solid black;align-items: center;height: 120px;background-color: rgb(24, 20, 20);color: white;
+        }
+        .david{
+            width:120px;
+            height:120px;
+        }
+        .p1{
+            margin-left: 10px;
+        }
+        .z{
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .u{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(100px,450px));
+            align-items: center;
+        }
+        ul.bol{
+            list-style: none;
+            padding: 0;
+            border-bottom: 1px solid black;
+        }
+        li{
+             display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+            border: 1px solid black;
+            padding: 10px;
+            border-bottom: 0px solid black;
+        }
+        .fa-get-pocket {
+            margin-left: auto;
+        }
+        .lc{
+            display: grid;
+            grid-template-columns: 20% 80%;
+            align-items: center;
+       }
+        .fa-arrow-right {
+            justify-content: center;
+            height: 20px;
+            width: 20px;
+            align-items: center;
+        }
+        .box{
+            display: grid;grid-template-columns: repeat(auto-fit,minmax(300px,1fr));justify-items: center;justify-content: center;align-items: center;column-gap: 10px;row-gap: 10px;
+        }
+        .box1{
+            display: grid;grid-template-columns: repeat(auto-fit,minmax(300px,300px)); justify-items: center;border: 3px solid black;height: 250x;width: 273;
+        }
+        .box11{
+            height:180px; width:300px;border-bottom: 2px solid black;
+        }
+        .box12{
+            display: grid;background-color: rgb(128, 128, 128);color: rgb(0, 0, 0);font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b">
+            <h1>Download Ringtones</h1>
+            <p>Get the latest ringtones in mp3 file format and set the coolest, trendiest tone as your mobile ringtone</p>
+            <div class="ser"><input type="search" id="ser" placeholder="search over 5678 ringtones"></div>
+            <h3>Ringtone Categories</h3>
+            <div class="music">
+                <div class="ring"><img src="song2.png"  class="im"><p class="t">Hindi <br>Ringtones</p></div>
+                <div class="ring"><img src="pencil1.png" class="im"><p class="t">Name <br>Ringtones</p></div>
+                <div class="ring"><img src="ipho1.png"  class="im"><p class="t">iPhone <br>Ringtones</p></div>
+                <div class="ring"><img src="song3.png"  class="im"><p class="t">Albam <br>Ringtones</p></div>
+                <div class="ring"><img src="arrow.png"  class="im"><p class="t">Upload <br>Ringtones</p></div>
+                <div class="ring"><img src="deve.png" class="im"><p class="t">Develop <br>Ringtones</p></div>
+                <div class="ring"><img src="baby.png"  class="im"><p class="t">Baby <br>Ringtones</p></div>
+                <div class="ring"><img src="song4.png"  class="im"><p class="t">Love <br>Ringtones</p></div>
+                </div>
+            <div class="simple">
+              <div class="sim"><i class="fa fa-clock-o" aria-hidden="true"></i><a>Recent</a></div>
+               <div class="sim"><i class="fa fa-globe" aria-hidden="true"></i>Categories</div>
+               <div class="sim"><i class="fa fa-star" aria-hidden="true"></i> Popular</div>
+               
+            </div>
+            <div class="mus">
+                <div class="musc"><img src="pause.png" class="david"><p class="p1"><b>Ikirugu Tv</b><br>by DAVID KEMAL on jul 1<br>Duration 00.30</p></div>
+                 <div class="musc"><img src="pause.png" class="david"><p class="p1"><b>Ikirugu Tv</b><br>by DAVID KEMAL on jul 1<br>Duration 00.30</p></div>
+                 <div class="musc"><img src="pause.png" class="david"><p class="p1"><b>Ikirugu Tv</b><br>by DAVID KEMAL on jul 1<br>Duration 00.30</p></div>
+                 <div class="musc"><img src="pause.png" class="david"><p class="p1"><b>Ikirugu Tv</b><br>by DAVID KEMAL on jul 1<br>Duration 00.30</p></div>
+                 <div class="musc"><img src="pause.png" class="david"><p class="p1"><b>Ikirugu Tv</b><br>by DAVID KEMAL on jul 1<br>Duration 00.30</p></div>
+                 <div class="musc"><img src="pause.png" class="david"><p class="p1"><b>Ikirugu Tv</b><br>by DAVID KEMAL on jul 1<br>Duration 00.30</p></div>
+            </div>
+        </div>
+        <div class="">
+            <h2>Top news stories</h2>
+            <div class="box">
+            <div class="box1">
+                <img src="ani2.png" class="box11"> 
+               <div class="box12"><p>Most Spectacular Aquariums in the World You'll Love</p></div>
+                </div>
+                <div class="box1">
+               <img src="ani5.png" class="box11">
+                <div class="box12"><p>Most Spectacular Aquariums in the World You'll Love</p></div>
+                </div>
+            </div>
+            <h3>More From Site</h3>
+            <div class="u">
+               <ul class="bol">
+                <li><div class="lc"><i class="fa fa-arrow-right" aria-hidden="true"></i>Love calculator</div> <i class="fa fa-get-pocket" aria-hidden="true"></i></li>
+                <li><div class="lc"><i class="fa fa-arrow-right" aria-hidden="true"></i>Astrology & horoscope</div> <i class="fa fa-get-pocket" aria-hidden="true"></i></li>
+                <li><div class="lc"><i class="fa fa-arrow-right" aria-hidden="true"></i>Numerology</div> <i class="fa fa-get-pocket" aria-hidden="true"></i></li>
+                <li><div class="lc"><i class="fa fa-arrow-right" aria-hidden="true"></i>Celebrity Wallapers</div> <i class="fa fa-get-pocket" aria-hidden="true"></i></li>
+                <li><div class="lc"><i class="fa fa-arrow-right" aria-hidden="true"></i>Create your name ringtone</div> <i class="fa fa-get-pocket" aria-hidden="true"></i></li>
+               </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

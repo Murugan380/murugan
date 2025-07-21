@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+        }
+        .side{
+            display: grid;
+            grid-template-rows: auto auto auto auto;
+            border-right: 2px solid rgba(128, 128, 128, 0.733);
+            border-right-style: double;
+
+        }
+        .b{
+            display: flex;
+        }
+        .c{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+            align-content: center;
+            font-size: large;
+                }
+        .c:hover{
+            background-color: black;
+            color: white;
+        }
+        .d{
+        height: 25px;width: 250px;border-radius: 5px;
+        }
+        .k{
+           width:70px;height:30px;box-shadow: 4px 4px 10px black;border-radius: 5px;
+        }
+        .k:hover{
+            background-color: rgb(53, 207, 33);
+            
+        }
+        .k,.y{
+             background-color: rgb(91, 91, 235);
+        }
+
+    </style>
+</head>
+<body>
+    <div style="display: grid;grid-template-columns: auto auto;width: 1000px;border: 2px solid white;box-shadow: 5px 5px 20px black;  height: 600px;">
+        <div class="side">
+            <img src="user1.png" width="100px" height="100px" style="border-radius: 50px;padding-left: 65px;padding-top: 10px;">
+            <h1 style="padding-left: 20px;">S MURUGAN</h1>
+            <div class="c">
+            <i class="fa fa-home" aria-hidden="true"></i>Account</div>
+            <div class="c">
+            <i class="fa fa-key" aria-hidden="true"></i>Password</div>
+            <div class="c">
+            <i class="fa fa-user" aria-hidden="true"></i>Security</div>
+            <div class="c">
+            <i class="fa fa-television" aria-hidden="true"></i>Application</div>
+            <div class="c">
+            <i class="fa fa-bell" aria-hidden="true"></i>Notification</div>
+        </div>
+        <div style="margin-left: 30px;">
+            <h1>Account Settings</h1>
+            <div class="b">
+            <h4>First Name</h4><h4 style="padding-left: 280px;">Last Name</h4></div>
+            <div class="b">
+                <input type="text" class="d">
+                <input type="text" class="d" style="margin-left: 100px;" >
+            </div>
+            <div class="b">
+                <h4>Email</h4><h4 style="padding-left: 320px;">Phone number</h4>
+            </div>
+            <div class="b">
+                <input type="email" class="d">
+                <input type="number" class="d" style="margin-left: 100px;">
+            </div>
+            <div class="b">
+                <h4>Company</h4><h4 style="padding-left: 295px;">Designation</h4>
+            </div>
+            <div class="b">
+                <input type="text" class="d">
+                <input type="text" class="d" style="margin-left: 100px;">
+            </div>
+            <h6>Bio</h6>
+            <textarea rows="5" cols="80" style="text-indent: 30px;">ChatGPT is a conversational AI chatbot developed by OpenAI, designed to generate human-like text based on user input. It utilizes natural language processing and machine learning to understand and respond to a wide range of prompts and questions. Essentially, it's a tool that can be used for tasks like answering questions, writing different forms of text, translating languages, and even assisting with coding.</textarea><br><br>
+        <input type="button" value="update" class="k">
+            <input type="button" value="cancel" class="k y"></div>
+        </div>
+        </div>
+</body>
+</html>

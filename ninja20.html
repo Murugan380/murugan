@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(color.png.jpg);
+            display:grid;
+            justify-content: center;
+            height: 900px;
+        }
+        .a{
+          display: grid;border: 0px solid black;width: 400px;height: 700px;justify-content: center;text-align: center;padding-bottom: 10px;box-shadow: 8px 8px 20px rgb(0, 0, 0);
+        }
+        .b{
+        margin: 20px;border: 0px solid gray;background-color: transparent;border-bottom: 2px solid gray;width: 270px;height: 40px; font-size: 20px;
+        }
+        .c:hover{
+            background-color: black;
+            color: white;
+            border: 5px solid rgb(255, 0, 0);
+        }
+        .input:focus{
+            border-color: rgb(255, 94, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <h1>Login Form</h1>
+        <input type="text" placeholder="Name" class="b">
+        <input type="text" placeholder="Date of Birth" class="b">
+        <input type="email" placeholder="Email" class="b">
+        <input type="number" placeholder="Phonenumber" class="b">
+        <input type="password" placeholder="create new password" class="b">
+        <input type="password" placeholder="Confirm password" style="margin: 20px;" class="b">
+        <input type="button" value="Sign in" style="border: 3px solid black; width: 300px;border-radius: 10px;" class="c">
+    </div>
+</body>
+</html>
